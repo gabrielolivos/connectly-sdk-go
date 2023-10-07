@@ -10,6 +10,8 @@ To install the Connectly SDK, you can use the following `go get` command:
 
 go get github.com/github.com/gabrielolivos/connectly-sdk-go
 
+```
+
 This will download the SDK to your local environment
 
 ## Usage
