@@ -31,7 +31,7 @@ type BatchSendMessageResponse struct {
 
 //downloads CSV file
 func downloadCSVFile(url string, localPath string) error {
-	// Realiza una solicitud HTTP GET para descargar el archivo
+	// GET request for file download
 	response, err := http.Get(url)
 	if err != nil {
 		return err
@@ -63,11 +63,11 @@ func readCSVFile(filePath string) ([]BatchSendMessageRequest, error) {
 	defer file.Close()
 
 	reader := csv.NewReader(file)
-	reader.Comma = ';' // Establece el separador de valores a punto y coma
+	reader.Comma = ',' // Defines CSV column separator
 
 	var rows []BatchSendMessageRequest
 
-	// Ignorar la primera línea del encabezado
+	// gnores CSV header
 	_, _ = reader.Read()
 
 	for {
@@ -236,3 +236,4 @@ func main() {
 		return
 	}
 }
+
