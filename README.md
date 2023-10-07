@@ -18,6 +18,8 @@ This will download the SDK to your local environment
 
 Here's an example of how to use the SDK to send a campaign from a CSV file:
 
+```
+
 // Import the SDK
 import "github.com/yourusername/connectly-sdk-go"
 
@@ -41,7 +43,9 @@ func main() {
     fmt.Println("Campaign sent successfully!")
 }
 
+```
+
 ## Running the SDK
 
-To run the SDK, simply use command "go run ." from directory where your main.go file is located. 
+To run the SDK, simply use command ```go run .``` from directory where your main.go file is located. 
 
