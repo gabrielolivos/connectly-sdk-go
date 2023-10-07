@@ -8,7 +8,7 @@ To install the Connectly SDK, you can use the following `go get` command:
 
 ```shell
 
-go get github.com/github.com/gabrielolivos/connectly-sdk-go
+go get github.com/gabrielolivos/connectly-sdk-go
 
 ```
 
