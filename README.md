@@ -6,6 +6,8 @@ This Go SDK allows you to easily send campaigns using the Connectly API.
 
 To install the Connectly SDK, you can use the following `go get` command:
 
+```shell
+
 go get github.com/github.com/gabrielolivos/connectly-sdk-go
 
 This will download the SDK to your local environment
