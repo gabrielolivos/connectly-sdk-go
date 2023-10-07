@@ -49,3 +49,12 @@ func main() {
 
 To run the SDK, simply use command ```go run .``` from directory where your main.go file is located. 
 
+## CSV format 
+
+This SDK was created to read CSV files with the following structure:
+
+channel_type,external_id,{template_name}:body_1,{template_name}:body_2
+
+For custom CSV format integration, please reach out to your technical contact at Connectly! 
+
+
